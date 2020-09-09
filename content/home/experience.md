@@ -18,27 +18,28 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "CEO"
-  company = "GenCoin"
-  company_url = ""
-  location = "California"
-  date_start = "2017-01-01"
+  title = "Reasearch and Developement Intern"
+  company = "United for Nature Foundation"
+  company_url = "http://unitednaturefoundation.org/"
+  location = "Pune, India"
+  date_start = "2020-08-01"
   date_end = ""
   description = """
-  Responsibilities include:
-  
-  * Analysing
-  * Modelling
-  * Deploying
-  """
+  Developed a Drone + LiDAR + rover modular system to monitor animals such as tigers in the sahiyadri forest reserve."""
 
 [[experience]]
-  title = "Professor"
-  company = "University X"
-  company_url = ""
-  location = "California"
-  date_start = "2016-01-01"
-  date_end = "2016-12-31"
-  description = """Taught electronic engineering and researched semiconductor physics."""
+  title = "Electronics and Coding Head"
+  company = "PICT ROBOTICS"
+  company_url = "https://pictrobotics.com/"
+  location = "Pune, India"
+  date_start = "2019-08-01"
+  date_end = "2020-08-01"
+  description = """
+  Developed two robots - MR1 and MR2 - that completed the ABU ROBOCON ASIA PACIFIC 2020 theme of robo-rugby.
+  MR1, the first robot, picked the rugby ball and launched it.
+  MR2, the second robot, was programmed to calculate the
+  trajectory of the ball, caught it, placed it and kicked the ball
+  into a goal.
+  """
 
 +++
