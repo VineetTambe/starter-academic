@@ -1,7 +1,6 @@
 ---
 title: Integrated System for COVID-19
-summary: A system that scans the barcode on the ID card, performs mask detection using image processing in real time, detectes temperature of the individual and updates it on the
-cloud and UI with an integrated contactless sanitizer dispenser!
+summary:
 tags:
 - Demo
 date: "2020-07-27T00:00:00Z"
