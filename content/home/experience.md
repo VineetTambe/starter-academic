@@ -17,6 +17,18 @@ date_format = "Jan 2006"
 #   Required fields are `title`, `company`, and `date_start`.
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
+
+[[experience]]
+  title = "Reasearch and Developement Intern"
+  company = "Rari Systems"
+  company_url = ""
+  location = "Pune, India"
+  date_start = "2020-08-01"
+  date_end = ""
+  description = """
+  Developing a private 5G core."""
+
+
 [[experience]]
   title = "Reasearch and Developement Intern"
   company = "United for Nature Foundation"
@@ -25,7 +37,7 @@ date_format = "Jan 2006"
   date_start = "2020-08-01"
   date_end = ""
   description = """
-  Developed a Drone + LiDAR + rover modular system to monitor animals such as tigers in the sahiyadri forest reserve."""
+  Developing a Drone + LiDAR + rover modular system to monitor animals such as tigers in the sahiyadri forest reserve."""
 
 [[experience]]
   title = "Electronics and Coding Head"
