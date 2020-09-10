@@ -1,14 +1,14 @@
 ---
-title: Integrated System for COVID-19
-summary:
+title: Integrated System COVID-19
+summary: Data hiding in color images.
 tags:
 - Demo
-date: "2020-07-27T00:00:00Z"
+date: "2020-07-18T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
-external_link: https://drive.google.com/file/d/1iffjfklEwshTH5SxiMxHTsMPUmypEAjD/view?usp=sharing
+external_link: https://drive.google.com/file/d/1iffjfklEwshTH5SxiMxHTsMPUmypE
 
 image:
-  caption: Integrated System
+  caption: Steganography
   focal_point: Smart
 ---
