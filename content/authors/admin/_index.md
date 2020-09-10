@@ -27,8 +27,8 @@ interests:
 
 education:
   courses:
-  - course: BE in Electronics and Telecommunications
-    institution: Pune Institute of Computer Technology
+  - course: BE in Electronics and Telecommunications - 9.53/10
+    institution: Pune Institute of Computer Technology 
     year: 2021
 
 # Social/Academic Networking
@@ -38,7 +38,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:tambevineet@gmail.com".
+  link: mailto:tambevineet@gmail.com  # For a direct email link, use "mailto:tambevineet@gmail.com".
 #- icon: twitter
 #  icon_pack: fab
 #  link: https://twitter.com/GeorgeCushen
