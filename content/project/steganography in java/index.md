@@ -1,5 +1,5 @@
 ---
-title: Steganography in Java
+title: Stegnography in Java
 summary: Data hiding in color images.
 tags:
 - Demo
