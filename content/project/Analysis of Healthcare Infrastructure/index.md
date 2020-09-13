@@ -1,5 +1,5 @@
 ---
-title: Analysis of Healthcare Infrastructure
+title: COVID-19 case predictions + more.
 summary: Analyzing the supply of human resources and infrastructure to handle COVID-19 Cases using ARIMA model of accuracy 98.58%
 tags:
 - Demo
