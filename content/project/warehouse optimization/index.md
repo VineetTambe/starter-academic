@@ -1,6 +1,6 @@
 ---
 title: warehouse optimization
-summary: Omptimzation restocking of warehouse using machine learning and monitoring state using IoT
+summary: Optimized restocking of warehouse using machine learning and monitoring the warehouse state using IoT.
 tags:
 - Demo
 date: "2020-06-18T00:00:00Z"
