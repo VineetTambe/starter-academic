@@ -66,4 +66,4 @@ email: ""
 #- Researchers
 #- Visitors
 ---
-Hey there! I’m a ECE by major and an Roboticist at heart. Come join me in my journey to wire the unwired :P. 
+Hey there! I’m an ECE by major and a Roboticist at heart. Come join me in my journey to wire the unwired :P. 
