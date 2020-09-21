@@ -6,7 +6,7 @@ tags:
 date: "2020-06-18T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
-external_link: https://github.com/VineetTambe/SBSPS-Challenge-633-Warehouse-optimisation
+external_link: https://github.com/VineetTambe/Warehouse-Optimsation
 
 image:
   caption: Warehouse Optimisation
