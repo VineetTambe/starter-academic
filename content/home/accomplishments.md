@@ -22,6 +22,16 @@ date_format = "Jan 2006"
 [[item]]
   organization = "Coursera"
   organization_url = "https://www.coursera.org"
+  title = "Robotics: Estimation and Learning by University of Pennsylvania"
+  url = ""
+  certificate_url = "https://www.coursera.org/account/accomplishments/certificate/DG94AQ9ELNJW"
+  date_start = "2020-09-24"
+  date_end = ""
+  description = ""
+
+[[item]]
+  organization = "Coursera"
+  organization_url = "https://www.coursera.org"
   title = "Robotics: Perception by University of Pennsylvania"
   url = ""
   certificate_url = "https://www.coursera.org/account/accomplishments/certificate/BNTH3CMZHEX3"
