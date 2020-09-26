@@ -1,6 +1,6 @@
 ---
 title: Integrated System COVID-19
-summary: Data hiding in color images.
+summary: Detection of Mask, barcode, temperature, and sanitizer dispenser.
 tags:
 - Demo
 date: "2020-07-18T00:00:00Z"
