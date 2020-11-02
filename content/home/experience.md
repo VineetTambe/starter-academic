@@ -21,7 +21,7 @@ date_format = "Jan 2006"
 [[experience]]
   title = "Reasearch and Developement Intern"
   company = "Rari Systems"
-  company_url = ""
+  company_url = "https://rarisystems.com/"
   location = "Pune, India"
   date_start = "2020-08-01"
   date_end = ""
