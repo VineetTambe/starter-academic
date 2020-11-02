@@ -1,6 +1,6 @@
 ---
 title: Integrated System COVID-19
-summary: Detection of Mask, barcode, temperature, and sanitizer dispenser.
+summary: Detection of Mask, barcode, temperature, and sanitizer dispenser: https://github.com/VineetTambe/Integrated_covid19_system
 tags:
 - Demo
 date: "2020-07-18T00:00:00Z"
