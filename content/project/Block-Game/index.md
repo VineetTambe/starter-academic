@@ -1,6 +1,6 @@
 ---
 title: Block-Game
-summary: Doge the falling blocks!
+summary: Doge the falling blocks! A python executable file! just download and play, no need to install anything else!!
 tags:
 - Demo
 date: "2019-06-01T00:00:00Z"
