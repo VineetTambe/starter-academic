@@ -47,9 +47,9 @@ date_format = "Jan 2006"
   date_start = "2019-08-01"
   date_end = "2020-08-01"
   description = """
-  Developed two robots - MR1 and MR2 - that completed the ABU ROBOCON ASIA PACIFIC 2020 theme of robo-rugby.
-  * PassRobot, the first robot, picked the rugby ball and launched it.
-  * TryRobot, the second robot, was programmed to calculate the trajectory of the ball, caught it, placed it and kicked the ball into a goal.
+  Developed two robots - PassRobot and TryRobot- that completed the ABU ROBOCON ASIA PACIFIC 2020 theme of robo-rugby.
+  * PR, the first robot, picked the rugby ball and launched it.
+  * TR, the second robot, was programmed to calculate the trajectory of the ball, caught it, placed it and kicked the ball into a goal.
   """
 
 +++
