@@ -47,7 +47,7 @@ subtitle = ""
  css_class = ""
 +++
 
-- [Nov 2020] Research paper accepted oral presentation at the [International Conference Data Management, Analytics and Innovation](https://www.icdmai.org/) and will be submitted to Springer for publication in their prestigious AISC series!
+- [Nov 2020] Research paper accepted oral presentation at the [International Conference Data Management, Analytics and Innovation](https://www.icdmai.org/) and Springer for publication in their prestigious AISC series!
 - [Oct 2020] AIR13 ABU Robocon Asia-Pacific 2020!
 - [Jun 2020] Won a prize of INR 5Lakh for the [MyGov Cybersecurity Grand Challange](https://innovate.mygov.in/cyber-security-grand-challenge/)!
 - [May2019] AIR14 ABU Robocon Asia-Pacific 2019!
