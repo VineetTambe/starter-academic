@@ -19,12 +19,22 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[experience]]
+  title = "Robotics Engineering Intern"
+  company = "Flytbase"
+  company_url = "https://flytbase.com/"
+  location = "Pune, India"
+  date_start = "2021-02-22"
+  date_end = ""
+  description = """
+  Developing drones."""
+
+[[experience]]
   title = "Reasearch and Developement Intern"
   company = "Rari Systems"
   company_url = "https://rarisystems.com/"
   location = "Pune, India"
   date_start = "2020-08-01"
-  date_end = ""
+  date_end = "2020-03-01"
   description = """
   Developing a private 5G core."""
 
@@ -35,7 +45,7 @@ date_format = "Jan 2006"
   company_url = "http://unitednaturefoundation.org/"
   location = "Pune, India"
   date_start = "2020-08-01"
-  date_end = ""
+  date_end = "2021-02-01"
   description = """
   Developing a Drone + LiDAR + rover modular system to monitor animals such as tigers in the sahiyadri forest reserve."""
 

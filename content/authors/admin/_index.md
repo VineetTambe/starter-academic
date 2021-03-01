@@ -68,6 +68,7 @@ email: ""
 ---
 Hey there! I’m an ECE by major and a Roboticist at heart. Come join me in my journey to wire the unwired :P. 
  Currently I am working on:
+- drones
 - deploying private 5G core on the cloud 
 - figuring out ways to count the number of tigers in the Sahyadri Forest using multi-drone systems - contrubution https://github.com/k2shah/wadl/pull/45
 - defending against advanced attack vectors on biometric identification and authentication systems
