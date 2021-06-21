@@ -26,7 +26,7 @@ date_format = "Jan 2006"
   date_start = "2021-02-22"
   date_end = ""
   description = """
-  Developing drones."""
+  Building applications for drones."""
 
 [[experience]]
   title = "Research and Development Intern"
@@ -36,7 +36,7 @@ date_format = "Jan 2006"
   date_start = "2020-08-01"
   date_end = "2020-03-01"
   description = """
-  Developing a private 5G core."""
+  Developed and contributed to opensource 5G tools such as free5gc-cli 5g-trace-visualizer free5gc"""
 
 
 [[experience]]

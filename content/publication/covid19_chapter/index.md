@@ -1,8 +1,11 @@
 ---
 title: "Open Data for Sustainable Comunity: Chapter 8 & 9"
 authors: 
+- Neha Sharma
+- Santanu Ghosh
+- Monodeep Saha
 - admin
-- Vineet Tambe
+
 
 date: "2020-12-04T00:00:00Z"
 doi: "10.1007/978-981-33-4312-2"
