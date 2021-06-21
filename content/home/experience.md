@@ -29,7 +29,7 @@ date_format = "Jan 2006"
   Developing drones."""
 
 [[experience]]
-  title = "Reasearch and Developement Intern"
+  title = "Research and Development Intern"
   company = "Rari Systems"
   company_url = "https://rarisystems.com/"
   location = "Pune, India"
@@ -40,7 +40,7 @@ date_format = "Jan 2006"
 
 
 [[experience]]
-  title = "Reasearch and Developement Intern"
+  title = "Research and Development Intern"
   company = "United for Nature Foundation"
   company_url = "http://unitednaturefoundation.org/"
   location = "Pune, India"
