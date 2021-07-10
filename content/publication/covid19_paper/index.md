@@ -1,5 +1,5 @@
 ---
-title: "Analyzing the Supply of Healthcare Human Resource and Infrastructure of India to Handle COVID-19 cases aand Building a Prediction Model"
+title: "Analyzing the Supply of Healthcare Human Resource and Infrastructure of India to Handle COVID-19 cases and Building a Prediction Model"
 authors: 
 - admin
 - Atreyee Saha
