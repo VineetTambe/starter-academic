@@ -1,5 +1,5 @@
 ---
-title: "Open Data for Sustainable Comunity: Chapter 8 & 9"
+title: "Open Data for Sustainable Community: Chapter 8 & 9"
 authors: 
 - Neha Sharma
 - Santanu Ghosh
