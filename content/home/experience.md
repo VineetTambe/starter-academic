@@ -19,12 +19,22 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[experience]]
+  title = "Robotics Engineer"
+  company = "Flytbase"
+  company_url = "https://flytbase.com/"
+  location = "Pune, India"
+  date_start = "2021-08-01"
+  date_end = ""
+  description = """
+  Building applications for drones."""
+
+[[experience]]
   title = "Robotics Engineering Intern"
   company = "Flytbase"
   company_url = "https://flytbase.com/"
   location = "Pune, India"
   date_start = "2021-02-22"
-  date_end = ""
+  date_end = "2021-08-01"
   description = """
   Building applications for drones."""
 

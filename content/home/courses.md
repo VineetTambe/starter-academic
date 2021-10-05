@@ -22,6 +22,16 @@ date_format = "Jan 2006"
 [[item]]
   organization = "Coursera"
   organization_url = "https://www.coursera.org"
+  title = "Sample-based Learning Methods by University of Alberta, Alberta Machine Intelligence Institute"
+  url = ""
+  certificate_url = "https://www.coursera.org/account/accomplishments/certificate/TGC5L2G5C4AA"
+  date_start = "2020-10-05"
+  date_end = ""
+  description = ""
+
+[[item]]
+  organization = "Coursera"
+  organization_url = "https://www.coursera.org"
   title = "Robotics: Estimation and Learning by University of Pennsylvania"
   url = ""
   certificate_url = "https://www.coursera.org/account/accomplishments/certificate/DG94AQ9ELNJW"

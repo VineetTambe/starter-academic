@@ -8,8 +8,8 @@ authors:
 - Neha Sharma
 
 
-date: 
-doi: 
+date: "2021-08-05T00:00:00Z"
+doi: 10.1007/978-981-16-2934-1_25
 #date: "2019-09-09T00:00:00Z"
 #doi: "10.5120/ijca2019919323"
 
@@ -24,10 +24,10 @@ publishDate:
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *International Conference Data Management, Analytics and Innovation*
+publication: Springer
 publication_short: In *ICDMAI*
 
-abstract: 
+abstract: "The ongoing COVID-19 pandemic has affected the globe on an unprecedented scale, bringing the world to its knees. Healthcare systems across the globe have been placed under severe levels of stress due to the rising number of infections, especially in India. This paper aims to study the availability of healthcare resources in India in terms of infrastructure and human resources, in order to understand the dangers posed by increasing coronavirus infections. Prediction models have also been built to capture the trend in the rising number of confirmed cases for COVID-19. Data on the healthcare infrastructure and human resources for India have been analyzed and compared with the World Health Organization’s recommendations for the same. Prediction models, namely long short-term memory, ARIMA, Prophet, and exponential smoothing, have been used to make short-term predictions for COVID-19 cases. This paper finds that only 14% of India’s states have sufficient number of hospital beds and 50% have sufficient number of doctors. All of the models predicted a continued increase in the number of cases, with the ARIMA model performing the best."
 
 summary: 
 
@@ -41,7 +41,7 @@ featured: true
 
 links:
 - name: Publication Link
-  url:
+  url: https://link.springer.com/chapter/10.1007/978-981-16-2934-1_25
   #url: https://www.ijcaonline.org/archives/volume178/number44/30831-2019919323
   url_pdf: 
 #url_pdf: https://pdfs.semanticscholar.org/53d3/6aeef69ad2565179101f2df971e34f156d87.pdf
