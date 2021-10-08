@@ -27,7 +27,7 @@ interests:
 
 education:
   courses:
-  - course: BE in Electronics and Telecommunications 9.53/10 
+  - course: BE in Electronics and Telecommunications 9.65/10 
     institution: Pune Institute of Computer Technology
     year: 2021
 
