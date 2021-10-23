@@ -40,7 +40,7 @@ featured: true
 
 links:
 - name: Publication Link
-  url: "https://link.springer.com/book/10.1007/978-981-33-4312-2#about"
+  url: "https://link.springer.com/content/pdf/bfm%3A978-981-33-4312-2%2F1.pdf"
   #url: https://www.ijcaonline.org/archives/volume178/number44/30831-2019919323
   url_pdf: 
 #url_pdf: https://pdfs.semanticscholar.org/53d3/6aeef69ad2565179101f2df971e34f156d87.pdf
