@@ -46,6 +46,8 @@ subtitle = ""
  # CSS class.
  css_class = ""
 +++
+- [Nov 2021] Cycled 480kms from Pune to Aurangabad and back in a span of 4 days.
+- [Oct 2021] Recipient of RosCon'21 Diversity Scholarship.
 - [Jan 2021] Felicitated by Pune Institute of Computer Technology for developing [Integrated Covid-19 System](https://youtu.be/hhcx9HmFBgw).
 - [Jan 2021] Presented research paper at the [International Conference Data Management, Analytics and Innovation](https://www.icdmai.org/). Received 3rd prize in my track!
 - [Dec 2020] Book published in Springer, to which I contributed chapters: [Open Data for Sustainable Comunity](https://link.springer.com/book/10.1007/978-981-33-4312-2#toc).
