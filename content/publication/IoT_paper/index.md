@@ -9,7 +9,7 @@ authors:
 
 date: "2021-12-24T00:00:00Z"
 #date: "2019-09-09T00:00:00Z"
-#doi: "10.5120/ijca2019919323"
+doi: "10.1108/IJQRM-09-2021-0334"
 
 # Schedule page publish date (NOT publication's date).
 #publishDate: "2019-09-09T00:00:00Z"
@@ -25,7 +25,17 @@ publication_types: ["2"]
 publication:
 publication_short: 
 
-abstract: ""
+abstract: "In this paper, we provide an outlook for various protocols that are used for the transmission of
+data in the communication layer and provide an overview and analysis of device reliability
+from the point of view of the perception layer. We present an analysis on design metrics like
+perception, communication and computation layers for a “constrained environment”. An
+environment with limited resources such as - limited power, bandwidth, compute, memory etc.
+can be classified as a constrained environment. Based on our literature survey we have also
+presented a study that shows multi-path routing is more efficient than single-path and the
+retransmission mechanism is not preferable in an IoT environment. We have also tested the
+performance of standard security algorithms on different computational architectures and
+discuss the implications of the results. Empirical results demonstrate that encryption &
+decryption times increase non-linearly rather than linearly as message size increases."
 
 summary: 
 
@@ -39,7 +49,7 @@ featured: true
 
 links:
 - name: Publication Link
-  #url: https://www.ijcaonline.org/archives/volume178/number44/30831-2019919323
+  url: https://www.emerald.com/insight/content/doi/10.1108/IJQRM-09-2021-0334/full/html
   url_pdf: 
 #url_pdf: https://pdfs.semanticscholar.org/53d3/6aeef69ad2565179101f2df971e34f156d87.pdf
 url_code: ""
