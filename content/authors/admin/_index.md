@@ -27,6 +27,9 @@ interests:
 
 education:
   courses:
+  - course: Masters in Robotic Systems Development
+    institution: Carnegie Mellon University
+    year: 2024
   - course: BE in Electronics and Telecommunications 9.65/10 
     institution: Pune Institute of Computer Technology
     year: 2021
@@ -42,9 +45,9 @@ social:
 #- icon: twitter
 #  icon_pack: fab
 #  link: https://twitter.com/GeorgeCushen
-#- icon: google-scholar
-#  icon_pack: ai
-#  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+- icon: google-scholar
+  icon_pack: ai
+  link: https://scholar.google.com/citations?user=ojZm1pYAAAAJ&hl=en
 - icon: github
   icon_pack: fab
   link: https://github.com/VineetTambe

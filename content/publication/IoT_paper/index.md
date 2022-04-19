@@ -49,7 +49,7 @@ featured: true
 
 links:
 - name: Publication Link
-  url: https://www.emerald.com/insight/content/doi/10.1108/IJQRM-09-2021-0334/full/html
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ojZm1pYAAAAJ&citation_for_view=ojZm1pYAAAAJ:u-x6o8ySG0sC
   url_pdf: 
 #url_pdf: https://pdfs.semanticscholar.org/53d3/6aeef69ad2565179101f2df971e34f156d87.pdf
 url_code: ""

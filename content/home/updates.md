@@ -46,6 +46,7 @@ subtitle = ""
  # CSS class.
  css_class = ""
 +++
+- [Feb 2022] Got an admit from CMU for the MRSD program! (Other unis I got admits from: MSR GaTech, MSE Robotics UPenn, MSR UMich.)
 - [Nov 2021] Cycled 480kms from Pune to Aurangabad and back in a span of 4 days.
 - [Oct 2021] Recipient of RosCon'21 Diversity Scholarship.
 - [Jan 2021] Felicitated by Pune Institute of Computer Technology for developing [Integrated Covid-19 System](https://youtu.be/hhcx9HmFBgw).
