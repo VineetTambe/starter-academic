@@ -41,7 +41,8 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: mailto:tambevineet@gmail.com  # For a direct email link, use "mailto:tambevineet@gmail.com".
+  link: mailto:vtambe@cs.cmu.edu
+  # link: mailto:tambevineet@gmail.com  # For a direct email link, use "mailto:tambevineet@gmail.com".
 #- icon: twitter
 #  icon_pack: fab
 #  link: https://twitter.com/GeorgeCushen
@@ -53,15 +54,17 @@ social:
   link: https://github.com/VineetTambe
 - icon: linkedin
   icon_pack: fab
-  link: https://www.linkedin.com/in/vineet-tambe-379153176/
+  link: https://www.linkedin.com/in/vineet-tambe/
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: files/cv.pdf
+- icon: cv
+  icon_pack: ai
+  # link: files/cv.pdf
+  link: https://drive.google.com/file/d/1bvSycV816ua16Zhj1bzVFW9g_5SYoPBG/view?usp=sharing
+
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ""
+email: "vtambe@cs.cmu.edu"
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
@@ -70,8 +73,8 @@ email: ""
 #- Visitors
 ---
 Hey there! I’m an ECE by major and a Roboticist at heart. Come join me in my journey to wire the unwired :P. 
- Currently I am working on:
-- drones
+ <!-- Currently I am working on:
+- Autonomous Vehicles 
 - reinforcement learning
-- control systems
+- control systems -->
 
