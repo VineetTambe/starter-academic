@@ -53,6 +53,6 @@ subtitle = ""
 - [Jan 2021] Presented research paper at the [International Conference Data Management, Analytics and Innovation](https://www.icdmai.org/). Received 3rd prize in my track!
 - [Dec 2020] Book published in Springer, to which I contributed chapters: [Open Data for Sustainable Community](https://link.springer.com/book/10.1007/978-981-33-4312-2#toc).
 - [Oct 2020] AIR13 ABU Robocon Asia-Pacific 2020!
-- [Jun 2020] Won a prize of INR 5Lakh for the [MyGov Cybersecurity Grand Challange](https://innovate.mygov.in/cyber-security-grand-challenge/)!
+- [Jun 2020] Won a prize of INR 5Lakh for the [MyGov Cybersecurity Grand Challenge](https://innovate.mygov.in/cyber-security-grand-challenge/)!
 - [May 2019] AIR14 ABU Robocon Asia-Pacific 2019!
 

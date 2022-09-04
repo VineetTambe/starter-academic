@@ -72,7 +72,8 @@ email: "vtambe@cs.cmu.edu"
 #- Researchers
 #- Visitors
 ---
-Hey there! I’m an ECE by major and a Roboticist at heart. Come join me in my journey to wire the unwired :P. 
+Hey there! I’m a budding roboticist pursuing my master's in Robotic System Development at the Robotics Insitute at Carnegie Mellon University. I am passionate about Robotics and AI and have experience in SLAM, CV, ROS, embedded systems, electronics, and AI. 
+I love to explore different technologies and apply them to solve real-world problems. Come join me in my journey to wire the unwired :P.
  <!-- Currently I am working on:
 - Autonomous Vehicles 
 - reinforcement learning
