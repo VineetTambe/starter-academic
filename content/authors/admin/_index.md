@@ -10,12 +10,12 @@ authors:
 superuser: true
 
 # Role/position
-role: Undergraduate Student
+role: Graduate Student
 
 # Organizations/Affiliations
 organizations:
-- name: Pune Institute of Computer Technology
-  url: "https://pict.edu/"
+- name: Carnegie Mellon University
+  url: "https://www.ri.cmu.edu/"
 
 # Short bio (displayed in user profile at end of posts)
 bio: I am fascinated by Robotics and Artificial Intelligence.
