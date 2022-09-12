@@ -60,7 +60,7 @@ social:
 - icon: cv
   icon_pack: ai
   # link: files/cv.pdf
-  link: https://drive.google.com/file/d/1JQY5oupOIXElXEeDeeQ8Sk9boSgj2GjH/view?usp=sharing
+  link: https://drive.google.com/file/d/1Z6DSTK8H0FmgSkLbtp6M35dZ_6oom_Ql/view?usp=sharing
 
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
