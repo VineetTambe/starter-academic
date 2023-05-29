@@ -70,15 +70,15 @@ jobs:
   #       uses: actions/upload-pages-artifact@v1
   #       with:
   #         path: ./public
-   - name: Deploy
-      uses: JamesIves/github-pages-deploy-action@v4.3.3
-      with:
-        token:  ${{ secrets.SECRETNAME }}
-        repository-name: xxx/xxx.github.io
-        branch: master # The branch the action should deploy to.
-        folder: public # The folder the action should deploy.
-        single-commit: true
-        commit-message: "Deploy by source"
+  #  - name: Deploy
+  #     uses: JamesIves/github-pages-deploy-action@v4.3.3
+  #     with:
+  #       token:  ${{ secrets.SECRETNAME }}
+  #       repository-name: xxx/xxx.github.io
+  #       branch: master # The branch the action should deploy to.
+  #       folder: public # The folder the action should deploy.
+  #       single-commit: true
+  #       commit-message: "Deploy by source"
   deploy:
     runs-on: ubuntu-latest
     needs: build
@@ -86,7 +86,7 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4.3.3
         with:
-          token:  ${{ secrets.TOKEN }}
+          token: ${{ secrets.TOKEN }}
           repository-name: VineetTambe/VineetTambe.github.io
           branch: devel # The branch the action should deploy to.
           folder: public # The folder the action should deploy.
