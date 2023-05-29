@@ -15,29 +15,27 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Git checkout
         uses: actions/checkout@v2
 
-      # - name: Update theme
-      #   # (Optional)If you have the theme added as submodule, you can pull it and use the most updated version
-      #   run: git submodule update --init --recursive
-
       - name: Setup hugo
-        # uses: peaceiris/actions-hugo@v2
-        # with:
-        #   hugo-version: "0.112.4"
         run: sudo snap install hugo
 
       - name: Build
-        # remove --minify tag if you do not need it
-        # docs: https://gohugo.io/hugo-pipes/minification/
         run: hugo --minify
 
-      - name: Debug0
-        run: ls -la
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4.3.3
+        with:
+          token: ${{ secrets.TOKEN }}
+          repository-name: VineetTambe/VineetTambe.github.io
+          branch: devel # The branch the action should deploy to.
+          folder: ./../public # The folder the action should deploy.
+          single-commit: true
+          commit-message: "Deploy by source"
 
   # build:
   #   runs-on: ubuntu-latest
@@ -82,31 +80,35 @@ jobs:
   #       folder: public # The folder the action should deploy.
   #       single-commit: true
   #       commit-message: "Deploy by source"
-  deploy:
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-      - name: Debug1
-        run: pwd
-      - name: Debug2
-        run: ls -la
-      - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@v4.3.3
-        with:
-          token: ${{ secrets.TOKEN }}
-          repository-name: VineetTambe/VineetTambe.github.io
-          branch: devel # The branch the action should deploy to.
-          folder: ./../public # The folder the action should deploy.
-          single-commit: true
-          commit-message: "Deploy by source"
-        # id: deployment
-        # uses: peaceiris/actions-gh-pages@v3
-        # with:
-        #   personal_token: ${{ secrets.TOKEN }}
-        #   external_repository: VineetTambe/VineetTambe.github.io
-        #   publish_dir: ./public
-        #   #   keep_files: true
-        #   user_name: VineetTambe
-        #   user_email: tambevineet@gmail.com
-        #   publish_branch: devel
-        #   cname: example.com
+  # deploy:
+  #   runs-on: ubuntu-latest
+  #   needs: build
+  #   steps:
+  #     # - name: Checkout
+  #     #   uses: actions/checkout@v2
+
+  #     # - name: Retrieve saved public files
+  #     #   uses: actions/download-artifact@v2
+  #     #   with:
+  #     #     name: docker-artifact
+  #     #     path: path/to/artifacts
+  #     - name: Deploy to GitHub Pages
+  #       uses: JamesIves/github-pages-deploy-action@v4.3.3
+  #       with:
+  #         token: ${{ secrets.TOKEN }}
+  #         repository-name: VineetTambe/VineetTambe.github.io
+  #         branch: devel # The branch the action should deploy to.
+  #         folder: ./../public # The folder the action should deploy.
+  #         single-commit: true
+  #         commit-message: "Deploy by source"
+  #       # id: deployment
+  #       # uses: peaceiris/actions-gh-pages@v3
+  #       # with:
+  #       #   personal_token: ${{ secrets.TOKEN }}
+  #       #   external_repository: VineetTambe/VineetTambe.github.io
+  #       #   publish_dir: ./public
+  #       #   #   keep_files: true
+  #       #   user_name: VineetTambe
+  #       #   user_email: tambevineet@gmail.com
+  #       #   publish_branch: devel
+  #       #   cname: example.com
