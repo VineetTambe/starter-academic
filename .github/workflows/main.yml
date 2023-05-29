@@ -89,7 +89,7 @@ jobs:
           token: ${{ secrets.TOKEN }}
           repository-name: VineetTambe/VineetTambe.github.io
           branch: devel # The branch the action should deploy to.
-          folder: public # The folder the action should deploy.
+          folder: ./public # The folder the action should deploy.
           single-commit: true
           commit-message: "Deploy by source"
         # id: deployment
