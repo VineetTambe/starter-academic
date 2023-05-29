@@ -1,10 +1,10 @@
-###To serve:
+### To serve:
 
 ```
 hugo server -D
 ```
 
-###To Build:
+### To Build:
 
 ```
 hugo
