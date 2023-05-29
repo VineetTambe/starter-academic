@@ -85,5 +85,5 @@ jobs:
           #   keep_files: true
           user_name: VineetTambe
           user_email: tambevineet@gmail.com
-          publish_branch: main
+          publish_branch: devel
         #   cname: example.com
