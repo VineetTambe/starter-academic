@@ -21,103 +21,18 @@ jobs:
       - name: Git checkout
         uses: actions/checkout@v2
 
-      # - name: Update theme
-      #   # (Optional)If you have the theme added as submodule, you can pull it and use the most updated version
-      #   run: git submodule update --init --recursive
-
       - name: Setup hugo
-        # uses: peaceiris/actions-hugo@v2
-        # with:
-        #   hugo-version: "0.112.4"
         run: sudo snap install hugo
 
       - name: Build
-        # remove --minify tag if you do not need it
-        # docs: https://gohugo.io/hugo-pipes/minification/
         run: hugo --minify
+
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4.3.3
         with:
           token: ${{ secrets.TOKEN }}
           repository-name: VineetTambe/VineetTambe.github.io
-          branch: devel # The branch the action should deploy to.
+          branch: mains # The branch the action should deploy to.
           folder: public # The folder the action should deploy.
           single-commit: true
           commit-message: "Deploy by source"
-      # - name: Upload artifact
-      #   uses: actions/upload-pages-artifact@v1
-      #   with:
-      #     path: ./public
-
-  # build:
-  #   runs-on: ubuntu-latest
-  #   env:
-  #     HUGO_VERSION: 0.111.3
-  #   steps:
-  #     - name: Install Hugo CLI
-  #       run: |
-  #         wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
-  #         && sudo dpkg -i ${{ runner.temp }}/hugo.deb
-  #     - name: Install Dart Sass Embedded
-  #       run: sudo snap install dart-sass-embedded
-  #     - name: Checkout
-  #       uses: actions/checkout@v3
-  #       with:
-  #         submodules: recursive
-  #         fetch-depth: 0
-  #     - name: Setup Pages
-  #       id: pages
-  #       uses: actions/configure-pages@v3
-  #     - name: Install Node.js dependencies
-  #       run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
-  #     - name: Build with Hugo
-  #       env:
-  #         # For maximum backward compatibility with Hugo modules
-  #         HUGO_ENVIRONMENT: production
-  #         HUGO_ENV: production
-  #       run: |
-  #         hugo \
-  #           --minify \
-
-  #     - name: Upload artifact
-  #       uses: actions/upload-pages-artifact@v1
-  #       with:
-  #         path: ./public
-  #  - name: Deploy
-  #     uses: JamesIves/github-pages-deploy-action@v4.3.3
-  #     with:
-  #       token:  ${{ secrets.SECRETNAME }}
-  #       repository-name: xxx/xxx.github.io
-  #       branch: master # The branch the action should deploy to.
-  #       folder: public # The folder the action should deploy.
-  #       single-commit: true
-  #       commit-message: "Deploy by source"
-  # deploy:
-  #   environment:
-  #     name: github-pages
-  #     url: ${{ steps.deployment.outputs.page_url }}
-  #   runs-on: ubuntu-latest
-  #   needs: build
-  #   steps:
-  #     - name: Debug
-  #       run: ls -la
-  #     - name: Deploy to GitHub Pages
-  #       uses: JamesIves/github-pages-deploy-action@v4.3.3
-  #       with:
-  #         token: ${{ secrets.TOKEN }}
-  #         repository-name: VineetTambe/VineetTambe.github.io
-  #         branch: devel # The branch the action should deploy to.
-  #         folder: public # The folder the action should deploy.
-  #         single-commit: true
-  #         commit-message: "Deploy by source"
-  #       # id: deployment
-  # uses: peaceiris/actions-gh-pages@v3
-  # with:
-  #   personal_token: ${{ secrets.TOKEN }}
-  #   external_repository: VineetTambe/VineetTambe.github.io
-  #   publish_dir: ./public
-  #   #   keep_files: true
-  #   user_name: VineetTambe
-  #   user_email: tambevineet@gmail.com
-  #   publish_branch: devel
-  #   cname: example.com
