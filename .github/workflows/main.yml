@@ -15,7 +15,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Git checkout
@@ -35,11 +35,19 @@ jobs:
         # remove --minify tag if you do not need it
         # docs: https://gohugo.io/hugo-pipes/minification/
         run: hugo --minify
-
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4.3.3
         with:
-          path: ./public
+          token: ${{ secrets.TOKEN }}
+          repository-name: VineetTambe/VineetTambe.github.io
+          branch: devel # The branch the action should deploy to.
+          folder: public # The folder the action should deploy.
+          single-commit: true
+          commit-message: "Deploy by source"
+      # - name: Upload artifact
+      #   uses: actions/upload-pages-artifact@v1
+      #   with:
+      #     path: ./public
 
   # build:
   #   runs-on: ubuntu-latest
@@ -84,32 +92,32 @@ jobs:
   #       folder: public # The folder the action should deploy.
   #       single-commit: true
   #       commit-message: "Deploy by source"
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-      - name: Debug
-        run: ls -la
-      - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@v4.3.3
-        with:
-          token: ${{ secrets.TOKEN }}
-          repository-name: VineetTambe/VineetTambe.github.io
-          branch: devel # The branch the action should deploy to.
-          folder: public # The folder the action should deploy.
-          single-commit: true
-          commit-message: "Deploy by source"
-        # id: deployment
-        # uses: peaceiris/actions-gh-pages@v3
-        # with:
-        #   personal_token: ${{ secrets.TOKEN }}
-        #   external_repository: VineetTambe/VineetTambe.github.io
-        #   publish_dir: ./public
-        #   #   keep_files: true
-        #   user_name: VineetTambe
-        #   user_email: tambevineet@gmail.com
-        #   publish_branch: devel
-        #   cname: example.com
+  # deploy:
+  #   environment:
+  #     name: github-pages
+  #     url: ${{ steps.deployment.outputs.page_url }}
+  #   runs-on: ubuntu-latest
+  #   needs: build
+  #   steps:
+  #     - name: Debug
+  #       run: ls -la
+  #     - name: Deploy to GitHub Pages
+  #       uses: JamesIves/github-pages-deploy-action@v4.3.3
+  #       with:
+  #         token: ${{ secrets.TOKEN }}
+  #         repository-name: VineetTambe/VineetTambe.github.io
+  #         branch: devel # The branch the action should deploy to.
+  #         folder: public # The folder the action should deploy.
+  #         single-commit: true
+  #         commit-message: "Deploy by source"
+  #       # id: deployment
+  # uses: peaceiris/actions-gh-pages@v3
+  # with:
+  #   personal_token: ${{ secrets.TOKEN }}
+  #   external_repository: VineetTambe/VineetTambe.github.io
+  #   publish_dir: ./public
+  #   #   keep_files: true
+  #   user_name: VineetTambe
+  #   user_email: tambevineet@gmail.com
+  #   publish_branch: devel
+  #   cname: example.com
