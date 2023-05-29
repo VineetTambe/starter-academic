@@ -32,7 +32,7 @@ jobs:
         with:
           token: ${{ secrets.TOKEN }}
           repository-name: VineetTambe/VineetTambe.github.io
-          branch: mains # The branch the action should deploy to.
+          branch: main # The branch the action should deploy to.
           folder: public # The folder the action should deploy.
           single-commit: true
           commit-message: "Deploy by source"
