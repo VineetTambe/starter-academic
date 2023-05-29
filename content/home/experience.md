@@ -3,7 +3,7 @@
 widget = "experience"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 30  # Order that this section will appear.
+weight = 20  # Order that this section will appear.
 
 title = "Experience"
 subtitle = ""
@@ -19,14 +19,24 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[experience]]
+  title = "Robotics Engineering Intern"
+  company = "Tailos"
+  company_url = "https://tailos.com/"
+  location = "Austin, Texas"
+  date_start = "2023-05-15"
+  date_end = "2023-08-11"
+  description = """
+  Empowering Humans Through Automation"""
+
+[[experience]]
   title = "Robotics Engineer"
   company = "Flytbase"
   company_url = "https://flytbase.com/"
   location = "Pune, India"
   date_start = "2021-08-01"
-  date_end = ""
+  date_end = "2022-08-05"
   description = """
-  Building applications for drones."""
+  Got the opportunity to work on some cool stuff ranging from writing control algorithms for Precision Landing of drones to Event based logging"""
 
 [[experience]]
   title = "Robotics Engineering Intern"
