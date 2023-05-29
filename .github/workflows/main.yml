@@ -36,9 +36,8 @@ jobs:
         # docs: https://gohugo.io/hugo-pipes/minification/
         run: hugo --minify
 
-      - name: Debug
+      - name: Debug0
         run: ls -la
-
 
   # build:
   #   runs-on: ubuntu-latest
@@ -87,9 +86,9 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
-      -name: Debug2 
+      - name: Debug1
         run: pwd
-      - name: Debug3
+      - name: Debug2
         run: ls -la
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4.3.3
