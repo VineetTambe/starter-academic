@@ -70,20 +70,36 @@ jobs:
   #       uses: actions/upload-pages-artifact@v1
   #       with:
   #         path: ./public
-
+   - name: Deploy
+      uses: JamesIves/github-pages-deploy-action@v4.3.3
+      with:
+        token:  ${{ secrets.SECRETNAME }}
+        repository-name: xxx/xxx.github.io
+        branch: master # The branch the action should deploy to.
+        folder: public # The folder the action should deploy.
+        single-commit: true
+        commit-message: "Deploy by source"
   deploy:
     runs-on: ubuntu-latest
     needs: build
     steps:
       - name: Deploy to GitHub Pages
-        id: deployment
-        uses: peaceiris/actions-gh-pages@v3
+        uses: JamesIves/github-pages-deploy-action@v4.3.3
         with:
-          personal_token: ${{ secrets.TOKEN }}
-          external_repository: VineetTambe/VineetTambe.github.io
-          publish_dir: ./public
-          #   keep_files: true
-          user_name: VineetTambe
-          user_email: tambevineet@gmail.com
-          publish_branch: devel
+          token:  ${{ secrets.TOKEN }}
+          repository-name: VineetTambe/VineetTambe.github.io
+          branch: devel # The branch the action should deploy to.
+          folder: public # The folder the action should deploy.
+          single-commit: true
+          commit-message: "Deploy by source"
+        # id: deployment
+        # uses: peaceiris/actions-gh-pages@v3
+        # with:
+        #   personal_token: ${{ secrets.TOKEN }}
+        #   external_repository: VineetTambe/VineetTambe.github.io
+        #   publish_dir: ./public
+        #   #   keep_files: true
+        #   user_name: VineetTambe
+        #   user_email: tambevineet@gmail.com
+        #   publish_branch: devel
         #   cname: example.com
