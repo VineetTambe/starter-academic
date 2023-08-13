@@ -26,7 +26,7 @@ date_format = "Jan 2006"
   date_start = "2023-05-15"
   date_end = "2023-08-11"
   description = """
-  Empowering Humans Through Automation"""
+  Worked on Reinforcement Learning based coverage path planning for robotic vacuums and multi-robot operations!"""
 
 [[experience]]
   title = "Robotics Engineer"

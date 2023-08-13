@@ -27,10 +27,10 @@ interests:
 
 education:
   courses:
-    - course: Masters in Robotic Systems Development
+    - course: Masters in Robotic Systems Development (4.0/4.0)
       institution: Carnegie Mellon University
       year: 2024
-    - course: BE in Electronics and Telecommunications 9.65/10
+    - course: BE in Electronics and Telecommunications (9.65/10)
       institution: Pune Institute of Computer Technology
       year: 2021
 
