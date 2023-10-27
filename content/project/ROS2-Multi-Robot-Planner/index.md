@@ -1,6 +1,6 @@
 ---
 title: ROS2 Centralized Multirobot Planner
-summary: A centralized conblict based search based multirobot planner for ROS2!
+summary: A state of the art centralized "conflict based search" multirobot planner for ROS2!
 tags:
 - Demo
 date: "2023-10-01T00:00:00Z"
