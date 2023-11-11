@@ -25,31 +25,42 @@ date_format = "Jan 2006"
   title = "Sample-based Learning Methods by University of Alberta, Alberta Machine Intelligence Institute"
   url = ""
   certificate_url = "https://www.coursera.org/account/accomplishments/certificate/TGC5L2G5C4AA"
-  date_start = "2020-10-05"
+  date_start = "2021-10-05"
   date_end = ""
   description = ""
 
 [[item]]
   organization = "Coursera"
   organization_url = "https://www.coursera.org"
-  title = "Robotics: Estimation and Learning by University of Pennsylvania"
+  title = "Robotics Specialization by University of Pennsylvania"
   url = ""
-  certificate_url = "https://www.coursera.org/account/accomplishments/certificate/DG94AQ9ELNJW"
-  date_start = "2020-09-24"
+  certificate_url = "https://www.coursera.org/account/accomplishments/specialization/certificate/WA9VSR4HPXDF"
+  date_start = "2021-04-01"
   date_end = ""
   description = ""
 
-[[item]]
-  organization = "Coursera"
-  organization_url = "https://www.coursera.org"
-  title = "Robotics: Perception by University of Pennsylvania"
-  url = ""
-  certificate_url = "https://www.coursera.org/account/accomplishments/certificate/BNTH3CMZHEX3"
-  date_start = "2020-09-20"
-  date_end = ""
-  description = ""
-
-
+#
+# [[item]]
+#   organization = "Coursera"
+#   organization_url = "https://www.coursera.org"
+#   title = "Robotics: Estimation and Learning by University of Pennsylvania"
+#   url = ""
+#   certificate_url = "https://www.coursera.org/account/accomplishments/certificate/DG94AQ9ELNJW"
+#   date_start = "2020-09-24"
+#   date_end = ""
+#   description = ""
+# 
+# [[item]]
+#   organization = "Coursera"
+#   organization_url = "https://www.coursera.org"
+#   title = "Robotics: Perception by University of Pennsylvania"
+#   url = ""
+#   certificate_url = "https://www.coursera.org/account/accomplishments/certificate/BNTH3CMZHEX3"
+#   date_start = "2020-09-20"
+#   date_end = ""
+#   description = ""
+# 
+ 
 [[item]]
   organization = "Udemy"
   organization_url = "https://www.udemy.com"
@@ -59,47 +70,48 @@ date_format = "Jan 2006"
   date_start = "2020-09-02"
   date_end = ""
   description = ""
-
-[[item]]
-  organization = "Coursera"
-  organization_url = "https://www.coursera.org"
-  title = "Robotics: Aerial Robotics by University of Pennsylvania"
-  url = ""
-  certificate_url = "https://www.coursera.org/account/accomplishments/certificate/Y45U22ZG5MWM"
-  date_start = "2020-06-01"
-  date_end = ""
-  description = ""
-
-[[item]]
-  organization = "Coursera"
-  organization_url = "https://www.coursera.org"
-  title = "Robotics: Mobility by University of Pennsylvania"
-  url = ""
-  certificate_url = "https://www.coursera.org/account/accomplishments/certificate/LLA7HKL4LCHC"
-  date_start = "2020-06-01"
-  date_end = ""
-  description = ""
-
-[[item]]
-  organization = "Coursera"
-  organization_url = "https://www.coursera.org"
-  title = "Robotics: Computational Motion Planning by University of Pennsylvania"
-  url = ""
-  certificate_url = "https://www.coursera.org/account/accomplishments/certificate/NZ63TL7WMES7"
-  date_start = "2020-06-01"
-  date_end = ""
-  description = ""
-
-[[item]]
-  organization = "Coursera"
-  organization_url = "https://www.coursera.org"
-  title = "Machine Learning by Stanford University"
-  url = ""
-  certificate_url = "https://www.coursera.org/account/accomplishments/certificate/3J4ZV42HK8RQ"
-  date_start = "2020-04-01"
-  date_end = ""
-  description = ""
-
+# 
+# [[item]]
+#   organization = "Coursera"
+#   organization_url = "https://www.coursera.org"
+#   title = "Robotics: Aerial Robotics by University of Pennsylvania"
+#   url = ""
+#   certificate_url = "https://www.coursera.org/account/accomplishments/certificate/Y45U22ZG5MWM"
+#   date_start = "2020-06-01"
+#   date_end = ""
+#   description = ""
+# 
+# [[item]]
+#   organization = "Coursera"
+#   organization_url = "https://www.coursera.org"
+#   title = "Robotics: Mobility by University of Pennsylvania"
+#   url = ""
+#   certificate_url = "https://www.coursera.org/account/accomplishments/certificate/LLA7HKL4LCHC"
+#   date_start = "2020-06-01"
+#   date_end = ""
+#   description = ""
+# 
+# [[item]]
+#   organization = "Coursera"
+#   organization_url = "https://www.coursera.org"
+#   title = "Robotics: Computational Motion Planning by University of Pennsylvania"
+#   url = ""
+#   certificate_url = "https://www.coursera.org/account/accomplishments/certificate/NZ63TL7WMES7"
+#   date_start = "2020-06-01"
+#   date_end = ""
+#   description = ""
+# 
+# 
+# [[item]]
+#   organization = "Coursera"
+#   organization_url = "https://www.coursera.org"
+#   title = "Machine Learning by Stanford University"
+#   url = ""
+#   certificate_url = "https://www.coursera.org/account/accomplishments/certificate/3J4ZV42HK8RQ"
+#   date_start = "2020-04-01"
+#   date_end = ""
+#   description = ""
+# 
 
 [[item]]
   organization = "Coursera"
@@ -111,17 +123,17 @@ date_format = "Jan 2006"
   date_end = ""
   description = ""
 
-[[item]]
-  organization = "IBM"
-  organization_url = "https://www.coursera.org"
-  title = "Deeplearning"
-  url = ""
-  certificate_url = "https://www.youracclaim.com/badges/e6043edc-ee1b-405b-a351-be353c054084/linked_in_profile"
-  date_start = "2020-05-01"
-  date_end = ""
-  description = ""
+# [[item]]
+#   organization = "IBM"
+#   organization_url = "https://www.coursera.org"
+#   title = "Deeplearning"
+#   url = ""
+#   certificate_url = "https://www.youracclaim.com/badges/e6043edc-ee1b-405b-a351-be353c054084/linked_in_profile"
+#   date_start = "2020-05-01"
+#   date_end = ""
+#   description = ""
 
-#[[item]]
+# [[item]]
 #  organization = "edX"
 #  organization_url = "https://www.edx.org"
 #  title = "Blockchain Fundamentals"
